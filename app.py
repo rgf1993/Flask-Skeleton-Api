@@ -1,0 +1,1 @@
+from flask_skeleton import app
