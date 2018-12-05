@@ -41,9 +41,8 @@ in venv:
 
 - python manage.py db upgrade (to upgrade the database to a new alembic version)
 
+# test:
+py.test
+
 #sql:
-
 app.logger.info(cur.query)
-
-#test:
-py.tes
